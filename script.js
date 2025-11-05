@@ -61,7 +61,7 @@ function scrollToSection(sectionId) {
 // Download Resume
 function downloadResume() {
     // Check if resume.pdf exists, otherwise show alert
-    const resumePath = './resume.pdf';
+    const resumePath = 'https://github.com/suman0717/portfolio.github.io/blob/main/SUMAN_KUMAR_CHANDAN.pdf';
     const link = document.createElement('a');
     link.href = resumePath;
     link.download = 'Suman_Kumar_Chandan_Resume.pdf';
